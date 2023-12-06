@@ -4,7 +4,7 @@ use std::{
 };
 
 // use day1::part2;
-use day5::part_two;
+use day6::part_one;
 
 mod day1;
 mod day5;
@@ -15,12 +15,12 @@ fn main() {
 
     // if let Ok(res) = part_one("./day5.txt") {
     //     println!("The result is: {}", res);
-    // } 
+    // }
 
     use std::time::Instant;
     let now = Instant::now();
 
-    match part_two("./day5.txt") {
+    match part_one("./day6.txt") {
         Ok(res) => println!("The result is: {}", res),
         Err(e) => println!("Error: {}", e),
     }
