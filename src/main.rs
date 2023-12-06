@@ -8,6 +8,7 @@ use day5::part_two;
 
 mod day1;
 mod day5;
+mod day6;
 
 fn main() {
     // let input = read_file("./day1.txt").expect("reading file went wrong");
